@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* fast page font */
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* fast page style */
+.header-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1320px;
+    height: 600px;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.4) 60%, transparent 100%),
+    url("./images/Banner%20Image.png");
+}
+.header-text{
+    color: #FFFFFF;
+    width: 632px;
+    height: 246px;
+}
+.header-text h2{
+    font-size: 32px;
+    text-align: center;
+    padding-left: 200px;
+    height: 40px;
+    width: 259px;
+}
+.header-text h1{
+    height: 190px;
+    width: 632px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+/* second page design */
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 10px;
+}
+.main-box h6{
+    padding-top: 48px;
+    width: 397px;
+    height: 29px;
+    color: #FF0000;
+    font-size: 22px;
+}
+.h1-design h1{
+    color: #FF0000;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.main-box h2{
+    width: 410px;
+    height: 58px;
+    color: #070211;
+    font-weight: bold;
+    font-size: 40px;
+}
+/* third page style */
+.third-page{
+    background-image: url('./images/Vectorrr.png');
+    background-repeat: no-repeat;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1320px;
+    height: 600px;
+  
+    justify-content: center;
+    padding-left: 40px;
+}
+.main-container h1{
+    width: 642px;
+    height: 170px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 80px;
+    
+}
+.main-container p{
+width: 697px;
+height: 60px;
+color: #FFFFFF;
+font-size: 18px;
+padding-top: 70px;
+}
+.btn{
+    width: 167px;
+    height: 56px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 55px red;
+}
+
+/* forth pade style */
+.short-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.forth-page{
+    height: 482px;
+    width: 1320px;
+   background-color: #ee8d8d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    padding-right: 100px;
+}
+.forth-page span{
+    color: #FF0000;
+    font-size: 30px;
+}
+/* fifth page */
+.fifth-page{
+    margin-top: 100px;
+}
+.text-content h3{
+color: #FF0000;
+width: 207px;
+height: 29px;
+font-weight: bold;
+}
+.text-content h1{
+    width: 328px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.text-content p{
+    width: 393px;
+    height: 128px;
+    color: #070211;
+}
+.text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 100px;
+}
+.image-content image{
+height: 364.84px;
+width: 364.84px;
+}
+.texts{
+    width: 276px;
+    height: 170px;
+}
+.texts h1{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 50px;
+}
+.texts p{
+    color: #070211;
+}
+.fifth-page{
+    display: flex;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+}
+.image-content{
+    display: flex;
+    flex-direction: ;
+}
+.new-year-image{
+height: 140px;
+width: 140px;
+}
+.image-content{
+    padding-left: 200px;
+}
+.texts{
+    padding-left: 100px;
+    gap: 10px;
+}
+.main-offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.main-offer h4{
+    font-weight: bold;
+    color: #070211;
+    height: 29px;
+    width: 263px;
+}
+.main-offer h1{
+    width: 677px;
+    height: 91px;
+    font-weight: bold;
+    font-size:72;
+
+}
+.main-offer span{
+    color: #FF0000;
+}
