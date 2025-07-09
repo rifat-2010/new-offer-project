@@ -46,6 +46,12 @@
     color: #FFFFFF;
 }
 /* second page design */
+.h1-design{
+    display: flex;
+    flex-direction: column;
+    width: 802.9px;
+    margin: 0 auto;
+}
 .main-box{
     display: flex;
     flex-direction: column;
@@ -312,7 +318,7 @@ width: 140px;
 footer{
    background-color: #070211;
    margin-top: 100px;
-
+    padding-top: 50px;
 }
 .footer{
     width: 1185px;
