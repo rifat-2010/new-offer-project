@@ -208,25 +208,148 @@ width: 140px;
     padding-left: 100px;
     gap: 10px;
 }
-.main-offer{
+/* boxes-page design */
+.boxs-page{
+    margin: 0 auto;
+}
+.boxs-section{
+    margin: 0 auto;
+    width: 1320px;
+    
+}
+
+.boxs-header h3{
+    width: 192px;
+    height: 29px;
+    font-size: 20px;
+    color: #FF0000;
+}
+.boxs-header h1{
+    font-size: 48px;
+    width: 566px;
+    height: 60px;
+}
+.boxs-header p{
+    width: 896px;
+    height: 64px;
+    font-size: 20px;
+    color: #070211;
+}
+.main-box {
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 15px;
+
+}
+.main-box img {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+/* last-main page style */
+
+.main-last-content{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+}
+.last-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    gap: 30px;
+    margin-top: 100px;
+    background-color: #ee8d8d;
+    border-radius: 20px;
+    padding-bottom: 50px;
 }
-.main-offer h4{
-    font-weight: bold;
-    color: #070211;
-    height: 29px;
-    width: 263px;
+/* last main page */
+.subscribe-container {
+    display: flex;
+    border: 2px solid #a0c4e7; /* Light blue border similar to the image */
+    border-radius: 36px; /* Half of the height (72/2) for rounded corners */
+    overflow: hidden; /* Ensures content stays within rounded borders */
+    width: 648px; /* Based on the image's indicated width */
+    height: 72px; /* Based on the image's indicated height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
-.main-offer h1{
-    width: 677px;
-    height: 91px;
-    font-weight: bold;
-    font-size:72;
+
+.email-input {
+    flex-grow: 1; /* Allows the input field to take up available space */
+    border: none;
+    padding: 0 20px; /* Adjust padding as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    color: #666; /* Grey color for placeholder text */
+    outline: none; /* Remove outline on focus */
+    background-color: #fff; /* White background */
+    border-radius: 36px 0 0 36px; /* Rounded left corners */
+    text-align: left; /* Align placeholder text to the left */
+}
+
+.email-input::placeholder {
+    color: #b0b0b0; /* Lighter grey for the placeholder */
+}
+
+.subscribe-button {
+    background-color: #ff3333; /* Red color for the button */
+    color: white;
+    border: none;
+    padding: 0 30px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    cursor: pointer;
+    border-radius: 0 36px 36px 0; /* Rounded right corners */
+    white-space: nowrap; /* Prevent "Subscribe" from wrapping */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.subscribe-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* footer styles */
+footer{
+   background-color: #070211;
+   margin-top: 100px;
 
 }
-.main-offer span{
-    color: #FF0000;
+.footer{
+    width: 1185px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
 }
+.firts-footer p {
+  color: #FFFFFF;
+  margin: 5px 0;
+}
+
+.second-footer p {
+  display: flex;
+  align-items: center;     /* vertically center করে */
+  gap: 10px;               /* icon আর লেখার মাঝে space */
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+
+.second-footer p img {
+  width: 20px;             /* চাইলে icon-এর সাইজ ঠিক কর */
+  height: auto;
+}
+.images-section{
+    width: 328px;
+    height: 64px;
+    gap: 24px;
+    margin: 0 auto;
+}
+.images-section img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+.footer hr{
+    color: white;
+}
+
